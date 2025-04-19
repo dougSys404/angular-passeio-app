@@ -1,0 +1,62 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+
+# Angular build files
+/build
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de dependências
+/node_modules
+
+# Arquivos do ambiente
+.env
+.env.*.local
+
+# Relatórios de testes
+/coverage
+
+# Arquivos de produção do Angular Universal
+/server
+
+# Cache do Angular CLI
+.angular/cache/
+
+# Arquivos gerados de pacotes
+*.tgz
+
+# Arquivos do Compodoc (caso use)
+/documentation
+
+# Arquivos de deploy do Firebase (caso use)
+.firebase/
+
+# Arquivos do SonarQube (caso use)
+.sonar/
+
+# Arquivos temporários do sistema
+*.swp
+*.tmp
+*.temp
+
+# Arquivos do Mac
+.AppleDouble
+.LSOverride
+
+# Configurações locais (se existirem)
+local.env.ts
