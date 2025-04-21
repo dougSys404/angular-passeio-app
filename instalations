@@ -21,6 +21,8 @@ CRIANDO O COMPONENT PARA CATEGORIAS
 
 ng generate component categorias/categoria
 
+CRIANDO O O MODULO DE CATEGORIAS
+ng generate class categorias/categoria
 
 OBS:
 --save -> salva a instalação como uma dependencia no arquivo package.json
