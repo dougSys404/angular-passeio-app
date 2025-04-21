@@ -1,1 +1,54 @@
-<p>categoria works!</p>
+<div class="p-6 max-w-lg mx-auto bg-white shadow-lg rounded-lg mt-6">
+    <h2 class="text-2x1 font-semibold text-gray-700 mb-4">Nova categoria</h2>
+    <hr/>
+    <br>
+    <form id="categoriaForm">
+        <!--Campo nome, inicio-->
+        <div class="mb-4">
+            <label for="nome" class="block text-gray-600 font-medium mb-2">Nome:</label>
+            <input type="text" 
+                    id="nome" 
+                    name="nome" 
+                    placeholder="Ex: Restaurantes, praias, shoppings"
+                    class="w-full p-3 border border-gray-300 rounded shadow-sm
+                    focus:ring focus:ring-blue-400"
+                    required
+                    />
+            <span class="text-red-500 text-sm">
+                Campo obrigatório
+            </span>
+        </div>
+        <!--Campo nome, fim-->
+        <!---->
+        <!--Campo descrição, inicio-->
+        <div class="mb-4">
+            <label for="descricao" class="block text-gray-600 font-medium mb-2">Descrição:</label>
+            <textarea 
+                    rows="4"
+                    id="descricao" 
+                    name="descricao" 
+                    placeholder="Ex: Restaurantes, praias, shoppings"
+                    class="w-full p-3 border border-gray-300 
+                        rounded shadow-sm
+                        focus:outline-none focus:ring focus:ring-blue-400"
+                    required
+                    >
+        </textarea>
+            <span class="text-red-500 text-sm">
+                Campo obrigatório
+            </span>
+        </div>
+        <!--Campo descrição, fim-->
+        <!---->
+        <!--botões, inicio-->
+        <button type="submit" 
+            class=
+                "w-full bg-blue-600 
+                text-white font-semibold
+                p-3 rounded shadow
+                hover:bg-blue-700">
+            Cadastrar
+        </button>
+        <!--botões, fim-->
+    </form>
+</div>
