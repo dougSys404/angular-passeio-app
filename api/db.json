@@ -1,9 +1,19 @@
 {
-    "categorias" : [
-        {
-            "id" : "1",
-            "nome" : "Restaurantes",
-            "descricao" : "Lugares para alimentação"
-        }
-    ]
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Restaurantes",
+      "descricao": "Lugares para alimentação"
+    },
+    {
+      "id": "5d66",
+      "nome": "teste",
+      "descricao": "teste 123456789"
+    },
+    {
+      "id": "0953",
+      "nome": "teste",
+      "descricao": "teste"
+    }
+  ]
 }
