@@ -24,6 +24,17 @@ ng generate component categorias/categoria
 CRIANDO O O MODULO DE CATEGORIAS
 ng generate class categorias/categoria
 
+
+INSTALAR O JSON SERVER
+npm install --save-dev json-server
+
+DEPOIS DE CONFIGURADO O DB.JSON, VÁ ATÉ PACKAGE.JSON E CRIE UM SCRIPT
+
+O COMANDO PARA EXECUTAR O SCRIPT É:
+
+npm run <nome do script>
+
+
 OBS:
 --save -> salva a instalação como uma dependencia no arquivo package.json
 
@@ -34,4 +45,7 @@ npx tailwindcss init --> criar o arquivo tailwind.config.js
 --routing
 inclui modulo de rotas para o modulo
 
+json-server
+O json-server é uma ferramenta que permite criar uma API REST falsa 
+(fake API) rapidamente a partir de um simples arquivo JSON.
 
