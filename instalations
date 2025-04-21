@@ -13,6 +13,14 @@ ng generate module template --routing
 CRIANDO O COMPONENT DE LAYOUT QUE FICARÁ DENTRO DE TEMPLATE
 ng generate component template/layout
 
+CRIANDO O MODULO CATEGORIAS COM ROTA
+
+ng generate module categorias --routing
+
+CRIANDO O COMPONENT PARA CATEGORIAS
+
+ng generate component categorias/categoria
+
 
 OBS:
 --save -> salva a instalação como uma dependencia no arquivo package.json
