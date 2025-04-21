@@ -34,6 +34,9 @@ O COMANDO PARA EXECUTAR O SCRIPT É:
 
 npm run <nome do script>
 
+PARA CRIAR UM SERVICE PARA SE COMUNICAR COM UMA API:
+ng generate service <nome do serviço>
+
 
 OBS:
 --save -> salva a instalação como uma dependencia no arquivo package.json
