@@ -1,0 +1,15 @@
+TailwindCSS
+
+npm install --save tailwindcss@3.4.17 postcss autoprefix
+
+Após a instalação, será necessário inicializar o tailwind no projeto por comando.
+
+npx tailwindcss init
+
+
+OBS:
+--save -> salva a instalação como uma dependencia no arquivo package.json
+
+npx -> executor de pacotes do node.js
+
+npx tailwindcss init --> criar o arquivo tailwind.config.js
