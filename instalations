@@ -6,6 +6,13 @@ Após a instalação, será necessário inicializar o tailwind no projeto por co
 
 npx tailwindcss init
 
+CRIANDO O PRIMEIRO MÓDULO (Necessário para cliar o template da aplicação (header e footer))
+comando
+ng generate module template --routing
+
+CRIANDO O COMPONENT DE LAYOUT QUE FICARÁ DENTRO DE TEMPLATE
+ng generate component template/layout
+
 
 OBS:
 --save -> salva a instalação como uma dependencia no arquivo package.json
@@ -13,3 +20,8 @@ OBS:
 npx -> executor de pacotes do node.js
 
 npx tailwindcss init --> criar o arquivo tailwind.config.js
+
+--routing
+inclui modulo de rotas para o modulo
+
+
